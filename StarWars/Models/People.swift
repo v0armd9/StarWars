@@ -10,7 +10,7 @@ import Foundation
 
 struct TopLevelDict: Decodable {
     
-    let next: String
+    let next: String?
     let results: [PeopleDict]
     
 }

@@ -8,15 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2C9775C822C3E8BD00D090F7 /* PeopleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9775C722C3E8BD00D090F7 /* PeopleController.swift */; };
+		2C9775CA22C3F25A00D090F7 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9775C922C3F25A00D090F7 /* PeopleTableViewController.swift */; };
+		2C9775CC22C40B6200D090F7 /* PeopleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9775CB22C40B6200D090F7 /* PeopleDetailViewController.swift */; };
 		2CB3817322C3D98E00E8A54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3817222C3D98E00E8A54B /* AppDelegate.swift */; };
 		2CB3817822C3D98E00E8A54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3817622C3D98E00E8A54B /* Main.storyboard */; };
 		2CB3817A22C3D99400E8A54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3817922C3D99400E8A54B /* Assets.xcassets */; };
 		2CB3817D22C3D99400E8A54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3817B22C3D99400E8A54B /* LaunchScreen.storyboard */; };
 		2CB3818B22C3E2C500E8A54B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3818A22C3E2C500E8A54B /* People.swift */; };
+		2CD2A93A22C41D03003B006A /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2A93922C41D03003B006A /* Planet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C9775C722C3E8BD00D090F7 /* PeopleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleController.swift; sourceTree = "<group>"; };
+		2C9775C922C3F25A00D090F7 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		2C9775CB22C40B6200D090F7 /* PeopleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailViewController.swift; sourceTree = "<group>"; };
 		2CB3816F22C3D98E00E8A54B /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB3817222C3D98E00E8A54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB3817722C3D98E00E8A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		2CB3817C22C3D99400E8A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB3817E22C3D99400E8A54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB3818A22C3E2C500E8A54B /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		2CD2A93922C41D03003B006A /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				2CB3818A22C3E2C500E8A54B /* People.swift */,
+				2CD2A93922C41D03003B006A /* Planet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -111,6 +118,8 @@
 		2CB3818922C3DA2F00E8A54B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C9775C922C3F25A00D090F7 /* PeopleTableViewController.swift */,
+				2C9775CB22C40B6200D090F7 /* PeopleDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -188,6 +197,9 @@
 			files = (
 				2CB3818B22C3E2C500E8A54B /* People.swift in Sources */,
 				2CB3817322C3D98E00E8A54B /* AppDelegate.swift in Sources */,
+				2C9775CC22C40B6200D090F7 /* PeopleDetailViewController.swift in Sources */,
+				2CD2A93A22C41D03003B006A /* Planet.swift in Sources */,
+				2C9775CA22C3F25A00D090F7 /* PeopleTableViewController.swift in Sources */,
 				2C9775C822C3E8BD00D090F7 /* PeopleController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP48FW2MG5;
 				INFOPLIST_FILE = "$(SRCROOT)/StarWars/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -352,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP48FW2MG5;
 				INFOPLIST_FILE = "$(SRCROOT)/StarWars/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

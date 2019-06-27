@@ -10,8 +10,6 @@ import UIKit
 
 class PeopleDetailViewController: UIViewController {
     
-    var person: PeopleDict?
-    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var genderLabel: UILabel!
     @IBOutlet weak var heightLabel: UILabel!
@@ -21,6 +19,7 @@ class PeopleDetailViewController: UIViewController {
     @IBOutlet weak var skinColorLabel: UILabel!
     @IBOutlet weak var birthYearLabel: UILabel!
     
+    var person: PeopleDict?
     
     override func viewDidLoad() {
         super.viewDidLoad()

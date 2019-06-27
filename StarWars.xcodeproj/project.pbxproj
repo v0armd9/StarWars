@@ -15,6 +15,13 @@
 		2CB3817A22C3D99400E8A54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3817922C3D99400E8A54B /* Assets.xcassets */; };
 		2CB3817D22C3D99400E8A54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3817B22C3D99400E8A54B /* LaunchScreen.storyboard */; };
 		2CB3818B22C3E2C500E8A54B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3818A22C3E2C500E8A54B /* People.swift */; };
+		2CC1151522C41FEA00A405C3 /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1151422C41FEA00A405C3 /* PlanetController.swift */; };
+		2CC1151722C4222500A405C3 /* PlanetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1151622C4222500A405C3 /* PlanetTableViewController.swift */; };
+		2CC1151B22C422BA00A405C3 /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1151A22C422BA00A405C3 /* PlanetDetailViewController.swift */; };
+		2CC1152122C42B6800A405C3 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1152022C42B6800A405C3 /* Starship.swift */; };
+		2CC1152322C42B7500A405C3 /* StarshipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1152222C42B7500A405C3 /* StarshipController.swift */; };
+		2CC1152522C42B9700A405C3 /* StarshipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1152422C42B9700A405C3 /* StarshipTableViewController.swift */; };
+		2CC1152722C42BA900A405C3 /* StarshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1152622C42BA900A405C3 /* StarshipViewController.swift */; };
 		2CD2A93A22C41D03003B006A /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2A93922C41D03003B006A /* Planet.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +36,13 @@
 		2CB3817C22C3D99400E8A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB3817E22C3D99400E8A54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB3818A22C3E2C500E8A54B /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		2CC1151422C41FEA00A405C3 /* PlanetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
+		2CC1151622C4222500A405C3 /* PlanetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTableViewController.swift; sourceTree = "<group>"; };
+		2CC1151A22C422BA00A405C3 /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
+		2CC1152022C42B6800A405C3 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		2CC1152222C42B7500A405C3 /* StarshipController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipController.swift; sourceTree = "<group>"; };
+		2CC1152422C42B9700A405C3 /* StarshipTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipTableViewController.swift; sourceTree = "<group>"; };
+		2CC1152622C42BA900A405C3 /* StarshipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipViewController.swift; sourceTree = "<group>"; };
 		2CD2A93922C41D03003B006A /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +100,7 @@
 			children = (
 				2CB3818A22C3E2C500E8A54B /* People.swift */,
 				2CD2A93922C41D03003B006A /* Planet.swift */,
+				2CC1152022C42B6800A405C3 /* Starship.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -111,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				2C9775C722C3E8BD00D090F7 /* PeopleController.swift */,
+				2CC1151422C41FEA00A405C3 /* PlanetController.swift */,
+				2CC1152222C42B7500A405C3 /* StarshipController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -120,6 +137,10 @@
 			children = (
 				2C9775C922C3F25A00D090F7 /* PeopleTableViewController.swift */,
 				2C9775CB22C40B6200D090F7 /* PeopleDetailViewController.swift */,
+				2CC1151622C4222500A405C3 /* PlanetTableViewController.swift */,
+				2CC1151A22C422BA00A405C3 /* PlanetDetailViewController.swift */,
+				2CC1152422C42B9700A405C3 /* StarshipTableViewController.swift */,
+				2CC1152622C42BA900A405C3 /* StarshipViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -196,10 +217,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB3818B22C3E2C500E8A54B /* People.swift in Sources */,
+				2CC1152122C42B6800A405C3 /* Starship.swift in Sources */,
+				2CC1151B22C422BA00A405C3 /* PlanetDetailViewController.swift in Sources */,
+				2CC1152522C42B9700A405C3 /* StarshipTableViewController.swift in Sources */,
 				2CB3817322C3D98E00E8A54B /* AppDelegate.swift in Sources */,
 				2C9775CC22C40B6200D090F7 /* PeopleDetailViewController.swift in Sources */,
+				2CC1152322C42B7500A405C3 /* StarshipController.swift in Sources */,
 				2CD2A93A22C41D03003B006A /* Planet.swift in Sources */,
 				2C9775CA22C3F25A00D090F7 /* PeopleTableViewController.swift in Sources */,
+				2CC1151722C4222500A405C3 /* PlanetTableViewController.swift in Sources */,
+				2CC1151522C41FEA00A405C3 /* PlanetController.swift in Sources */,
+				2CC1152722C42BA900A405C3 /* StarshipViewController.swift in Sources */,
 				2C9775C822C3E8BD00D090F7 /* PeopleController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

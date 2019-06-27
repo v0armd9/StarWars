@@ -32,6 +32,4 @@ class PeopleController {
             }
         }.resume()
     }
-    
-    
 }//End of Class
